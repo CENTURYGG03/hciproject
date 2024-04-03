@@ -1,8 +1,7 @@
-
-
 body {
   margin: 0;
   padding: 0;
+  background-color: --oriColor;
 }
 
 .center {
@@ -13,6 +12,8 @@ body {
 }
 
 #warn {
+  font-family: "Roboto Mono", monospace;
   max-width: 300px;
   text-align: center;
+  color: --invColor;
 }
