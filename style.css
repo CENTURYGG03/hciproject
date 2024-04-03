@@ -13,6 +13,7 @@ body {
 
 #warn {
   font-family: "Roboto Mono", monospace;
+  font-weight: 700;
   max-width: 300px;
   text-align: center;
   color: --invColor;
