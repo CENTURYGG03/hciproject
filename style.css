@@ -1,0 +1,18 @@
+
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.center {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#warn {
+  max-width: 300px;
+  text-align: center;
+}
