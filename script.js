@@ -3,7 +3,7 @@ window.onload = function () {
   const oriColor = getRandomColor()
   const invColor = invertColor(oriColor)
   document.body.style.background = oriColor
-  document.getElementById("warn").style.color = invColor
+  document.getElementById("inverted").style.color = invColor
 }
 
 function getRandomColor() {
