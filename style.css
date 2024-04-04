@@ -11,7 +11,7 @@ body {
   align-items: center;
 }
 
-#inverted {
+h1#inverted {
   font-family: "Roboto Mono", monospace;
   font-weight: 700;
   max-width: 300px;
