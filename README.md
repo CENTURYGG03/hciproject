@@ -1,1 +1,1 @@
-Link for preview: [a link](https://matsuokengo.github.io/hciproject)
+[Preview link](https://matsuokengo.github.io/hciproject)
