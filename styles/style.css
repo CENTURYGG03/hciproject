@@ -49,6 +49,7 @@
   --header-size: 36px;
   --outline-color: black;
   --button-size: 20px;
+  --paragraph-size: 18px;
 }
 
 body {
@@ -85,12 +86,23 @@ section {
   height: 100svh;
   display: flex;
   align-items: center;
-  padding: 24px;
+  padding: 72px;
+  gap: 20px;
   box-sizing: border-box;
+}
+
+section .illus {
+  height: 80%;
 }
 
 h1 {
   font-size: var(--header-size);
+  margin: 0;
+}
+
+p {
+  font-size: var(--paragraph-size);
+  margin: 0;
 }
 
 .shaded-box {
@@ -99,11 +111,12 @@ h1 {
 }
 
 .button {
-  padding: 8px 18px;
+  padding: 8px 32px;
   text-decoration: none;
   color: var(--text-color);
   font-size: var(--button-size);
   margin: 0 4px 4px 0;
+  width: fit-content;
 }
 
 .button:active {
@@ -119,9 +132,14 @@ h1 {
   display: flex;
   flex-direction: column;
   margin-right: auto;
-  align-items: center;
+  text-align: left;
 }
 
 .right {
+  display: flex;
   margin-left: auto;
+  flex-direction: column;
+  margin-left: auto;
+
+  text-align: right;
 }
