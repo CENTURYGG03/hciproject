@@ -1,16 +1,15 @@
-
 window.onload = function () {
-  const oriColor = getRandomColor()
-  const invColor = invertColor(oriColor)
-  document.body.style.background = oriColor
-  document.getElementById("invert").style.color = invColor
+  const oriColor = getRandomColor();
+  const invColor = invertColor(oriColor);
+  document.body.style.background = oriColor;
+  document.querySelector('h2').style.color = invColor;
 }
 
 function getRandomColor() {
   const red = Math.floor(Math.random() * 256);
   const green = Math.floor(Math.random() * 256);
   const blue = Math.floor(Math.random() * 256);
-  return `#${red.toString(16)}${green.toString(16)}${blue.toString(16)}`;
+  return `#${padZero(red.toString(16))}${padZero(green.toString(16))}${padZero(blue.toString(16))}`;
 }
 
 function invertColor(hex) {
