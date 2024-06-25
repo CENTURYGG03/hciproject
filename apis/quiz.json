@@ -1,5 +1,5 @@
-[
-  [
+{
+  "Learning Addition And Subtraction - Basic Math For Kids - EASY Level": [
     {
       "type": "mc",
       "question": "7 + 3 =",
@@ -94,7 +94,7 @@
     }
   ],
   
-  [
+  "Learning Addition And Subtraction - Basic Math For Kids - Advanced Level": [
     {
       "type": "mc",
       "question": "15 + 13 =",
@@ -116,6 +116,646 @@
         "30"
       ],
       "answer": "30"
+    },
+    {
+      "type": "mc",
+      "question": "30 + 5 + 14 =",
+      "choices": [
+        "50",
+        "49",
+        "39",
+        "47"
+      ],
+      "answer": "49"
+    },
+    {
+      "type": "mc",
+      "question": "18 + 3 - 5 =",
+      "choices": [
+        "16",
+        "19",
+        "20",
+        "26"
+      ],
+      "answer": "16"
+    },
+    {
+      "type": "mc",
+      "question": "59 - 27 =",
+      "choices": [
+        "39",
+        "20",
+        "30",
+        "32"
+      ],
+      "answer": "32"
+    },
+    {
+      "type": "mc",
+      "question": "27 + 47 - 32 =",
+      "choices": [
+        "42",
+        "52",
+        "39",
+        "59"
+      ],
+      "answer": "42"
+    },
+    {
+      "type": "mc",
+      "question": "87 - 13 - 26 =",
+      "choices": [
+        "48",
+        "37",
+        "50",
+        "51"
+      ],
+      "answer": "48"
+    },
+    {
+      "type": "sa",
+      "question": "75 + 8 - 40 =",
+      "answer": "43"
+    },
+    {
+      "type": "sa",
+      "question": "13 + 13 + 13 =",
+      "answer": "39"
+    },
+    {
+      "type": "sa",
+      "question": "45 + 25 + 10 =",
+      "answer": "80"
+    }
+  ],
+
+  "Adding Problems For Kids - Learning Maths": [
+    {
+      "type": "mc",
+      "question": "Sarah has 3 apples, and Tom gives her 4 more. How many apples does Sarah have now?",
+      "choices": [
+        "6",
+        "10",
+        "7",
+        "11"
+      ],
+      "answer": "7"
+    },
+    {
+      "type": "mc",
+      "question": "A farmer has 14 cows and buys 4 more. How many cows does he have now?",
+      "choices": [
+        "18",
+        "15",
+        "20",
+        "14"
+      ],
+      "answer": "18"
+    },
+    {
+      "type": "mc",
+      "question": "Ben has 9 pencils, and her friend gives her 1 more. How many pencils does Lisa have now?",
+      "choices": [
+        "12",
+        "11",
+        "10",
+        "15"
+      ],
+      "answer": "10"
+    },
+    {
+      "type": "mc",
+      "question": "Jenny has 8 stickers and finds 2 more on the floor. How many stickers does she have now?",
+      "choices": [
+        "10",
+        "12",
+        "9",
+        "6"
+      ],
+      "answer": "10"
+    },
+    {
+      "type": "mc",
+      "question": "There are 4 birds sitting on a tree, and 3 more birds join them. How many birds are on the tree now?",
+      "choices": [
+        "7",
+        "4",
+        "11",
+        "9"
+      ],
+      "answer": "7"
+    },
+    {
+      "type": "mc",
+      "question": "Tim has 10 candies, and his friend gives him 10 more. How many marbles does Tim have now?",
+      "choices": [
+        "10",
+        "20",
+        "15",
+        "18"
+      ],
+      "answer": "20"
+    },
+    {
+      "type": "mc",
+      "question": "There are 17 fish in the pond, and 5 more fish are added. How many fish are in the pond now?",
+      "choices": [
+        "20",
+        "14",
+        "12",
+        "22"
+      ],
+      "answer": "22"
+    },
+    {
+      "type": "sa",
+      "question": "There are 5 red balloons and 6 blue balloons at the party. How many balloons are there in total?",
+      "answer": "11"
+    },
+    {
+      "type": "sa",
+      "question": "A basket contains 2 apples, 3 oranges, and 4 bananas. How many pieces of fruits are in the basket?",
+      "answer": "9"
+    },
+    {
+      "type": "sa",
+      "question": "Class A has 15 students and class B has 14 students. How many students are there in total?",
+      "answer": "29"
+    }
+  ],
+
+  "Subtractions For Kids - Learn To Subtract With Dinosaurs - Mathematics For Kids": [
+    {
+      "type": "mc",
+      "question": "Jamie has 8 candies, and he eats 5 of them. How many candies does Jamie have left?",
+      "choices": [
+        "7",
+        "3",
+        "4",
+        "6"
+      ],
+      "answer": "3"
+    },
+    {
+      "type": "mc",
+      "question": "There are 10 birds on a tree, and 4 of them fly away. How many birds are left on the tree?",
+      "choices": [
+        "6",
+        "8",
+        "9",
+        "3"
+      ],
+      "answer": "6"
+    },
+    {
+      "type": "mc",
+      "question": "Maria has 7 balloons, and 2 of the pop. How many balloons does Maria have now?",
+      "choices": [
+        "5",
+        "3",
+        "7",
+        "6"
+      ],
+      "answer": "5"
+    },
+    {
+      "type": "mc",
+      "question": "A farmer has 9 sheep, and he sells 5 of them. How many sheep does the farmer have now?",
+      "choices": [
+        "7",
+        "3",
+        "5",
+        "4"
+      ],
+      "answer": "4"
+    },
+    {
+      "type": "mc",
+      "question": "Jack has 17 pencils, and he gives 7 to her friend. How many pencils does Jack have left?",
+      "choices": [
+        "10",
+        "9",
+        "11",
+        "12"
+      ],
+      "answer": "10"
+    },
+    {
+      "type": "mc",
+      "question": "There are 22 cookies in a jar, and Time eats 8 of them. How many cookies are left in the jar?",
+      "choices": [
+        "16",
+        "18",
+        "14",
+        "12"
+      ],
+      "answer": "14"
+    },
+    {
+      "type": "mc",
+      "question": "Shelly has 36 toys, and she loses 16 of them. How many toys does Shelly have now?",
+      "choices": [
+        "10",
+        "16",
+        "26",
+        "20"
+      ],
+      "answer": "20"
+    },
+    {
+      "type": "sa",
+      "question": "Sarah had 27 apples, but she gave 8 to her neighbour. How many apples does Sarah have left?",
+      "answer": "19"
+    },
+    {
+      "type": "sa",
+      "question": "There are 18 books on a shelf, and 9 of them are taken away. How many books are left on the shelf?",
+      "answer": "9"
+    },
+    {
+      "type": "sa",
+      "question": "Jemma has 14 stickers, and she gives 11 to her brother. How many stickers does Jemma have now?",
+      "answer": "3"
+    }
+  ],
+
+  "Multiplication - Learn To Multiply With The Wizard's Apprentice": [
+    {
+      "type": "mc",
+      "question": "10 x 7 =",
+      "choices": [
+        "70",
+        "17",
+        "56",
+        "48"
+      ],
+      "answer": "70"
+    },
+    {
+      "type": "mc",
+      "question": "7 x 9 =",
+      "choices": [
+        "48",
+        "72",
+        "63",
+        "55"
+      ],
+      "answer": "63"
+    },
+    {
+      "type": "mc",
+      "question": "5 x 6 =",
+      "choices": [
+        "42",
+        "30",
+        "27",
+        "48"
+      ],
+      "answer": "30"
+    },
+    {
+      "type": "mc",
+      "question": "8 x 4 =",
+      "choices": [
+        "67",
+        "56",
+        "24",
+        "32"
+      ],
+      "answer": "32"
+    },
+    {
+      "type": "mc",
+      "question": "28 / 2 =",
+      "choices": [
+        "14",
+        "15",
+        "20",
+        "17"
+      ],
+      "answer": "14"
+    },
+    {
+      "type": "mc",
+      "question": "18 x 3 =",
+      "choices": [
+        "54",
+        "30",
+        "60",
+        "57"
+      ],
+      "answer": "54"
+    },
+    {
+      "type": "mc",
+      "question": "150 / 5 =",
+      "choices": [
+        "30",
+        "60",
+        "45",
+        "55"
+      ],
+      "answer": "30"
+    },
+    {
+      "type": "sa",
+      "question": "26 x 5 =",
+      "answer": "130"
+    },
+    {
+      "type": "sa",
+      "question": "85 / 5 =",
+      "answer": "19"
+    },
+    {
+      "type": "sa",
+      "question": "15 x 16 =",
+      "answer": "240"
+    }
+  ],
+
+  "Multiplication For Kids - How Many Coins Will The Monsters Have For The Party": [
+    {
+      "type": "mc",
+      "question": "There are 3 baskets with 4 apples in each basket. How many apples are there in total?",
+      "choices": [
+        "15",
+        "18",
+        "10",
+        "12"
+      ],
+      "answer": "12"
+    },
+    {
+      "type": "mc",
+      "question": "A spider has 8 legs. How many legs do 5 spiders have?",
+      "choices": [
+        "40",
+        "45",
+        "50",
+        "30"
+      ],
+      "answer": "40"
+    },
+    {
+      "type": "mc",
+      "question": "Each packet contains 6 cookies. If there are 7 packets, how many cookies are there altogether?",
+      "choices": [
+        "42",
+        "36",
+        "48",
+        "20"
+      ],
+      "answer": "42"
+    },
+    {
+      "type": "mc",
+      "question": "There are 10 shelves with 9 books on each shelf. How many books are there in total?",
+      "choices": [
+        "90",
+        "82",
+        "66",
+        "95"
+      ],
+      "answer": "90"
+    },
+    {
+      "type": "mc",
+      "question": "Each flower has 5 petals. How many petals do 12 flowers have?",
+      "choices": [
+        "40",
+        "50",
+        "30",
+        "60"
+      ],
+      "answer": "60"
+    },
+    {
+      "type": "mc",
+      "question": "A week has 7 days. How many days are there in 4 weeks?",
+      "choices": [
+        "21",
+        "14",
+        "30",
+        "28"
+      ],
+      "answer": "28"
+    },
+    {
+      "type": "mc",
+      "question": "There are 8 rows of chairs with 5 chairs in each row. How many chairs are there in total?",
+      "choices": [
+        "40",
+        "50",
+        "60",
+        "30"
+      ],
+      "answer": "40"
+    },
+    {
+      "type": "sa",
+      "question": "Each carton contains 8 eggs. If you have 13 cartons, how many eggs do you have?",
+      "answer": "104"
+    },
+    {
+      "type": "sa",
+      "question": "A cow has 4 legs. How many legs does 23 cows have?",
+      "answer": "92"
+    },
+    {
+      "type": "sa",
+      "question": "A car has 4 wheels, and a motorcycle has 2 wheels. How many wheels does 5 cars, and 8 motorcycles have?",
+      "answer": "36"
+    }
+  ],
+
+  "Divisions - Learn To Divide With Our Monkey Friends": [
+    {
+      "type": "mc",
+      "question": "There are 12 apples, and you want to share them equally among 4 friends. How many apples will each friend get?",
+      "choices": [
+        "4",
+        "2",
+        "3",
+        "5"
+      ],
+      "answer": "3"
+    },
+    {
+      "type": "mc",
+      "question": "A baker has 20 cookies and wants to put them into 5 boxes. How many cookies will go in each box?",
+      "choices": [
+        "6",
+        "5",
+        "4",
+        "7"
+      ],
+      "answer": "4"
+    },
+    {
+      "type": "mc",
+      "question": "There are 15 balloons, and you want to divide them into groups of 3. How many students will be in each group?",
+      "choices": [
+        "5",
+        "3",
+        "4",
+        "8"
+      ],
+      "answer": "5"
+    },
+    {
+      "type": "mc",
+      "question": "A teacher has 30 students and wants to form 6 equal groups. How many students will be in each group?",
+      "choices": [
+        "5",
+        "7",
+        "8",
+        "4"
+      ],
+      "answer": "5"
+    },
+    {
+      "type": "mc",
+      "question": "You have 18 marbles and want to split them equally into 3 bags. How many marbles will each bag contain?",
+      "choices": [
+        "9",
+        "5",
+        "6",
+        "4"
+      ],
+      "answer": "9"
+    },
+    {
+      "type": "mc",
+      "question": "There are 40 pieces of candy, and you want to divide them equally among 5 friends. How many pieces of candy?",
+      "choices": [
+        "4",
+        "6",
+        "8",
+        "7"
+      ],
+      "answer": "8"
+    },
+    {
+      "type": "mc",
+      "question": "A farmer has 28 apples and wants to pack them into boxes, with each box containing 7 apples. How many boxes will he need?",
+      "choices": [
+        "4",
+        "6",
+        "5",
+        "2"
+      ],
+      "answer": "4"
+    },
+    {
+      "type": "sa",
+      "question": "Timmy has 16 toy cars and want to divide them into 4 equal groups. How many cars will be in each group?",
+      "answer": "4"
+    },
+    {
+      "type": "sa",
+      "question": "A gardener has 27 flowers and wants to plant them in 9 equal rows. How many flowers will be in each row?",
+      "answer": "3"
+    },
+    {
+      "type": "sa",
+      "question": "There are 36 crayons, and you want to distribute them equally among 6 kids. How many crayons will each kid get?",
+      "answer": "6"
+    }
+  ],
+
+  "Division With Monster University - Learn Division": [
+    {
+      "type": "mc",
+      "question": "There are 48 pencils, and you want to put them into 4 equal groups. How many pencils will be in each group?",
+      "choices": [
+        "15",
+        "16",
+        "12",
+        "14"
+      ],
+      "answer": "12"
+    },
+    {
+      "type": "mc",
+      "question": "A farmer has 54 oranges and wants to divide them equally among 9 baskets. How many oranges will go in each basket?",
+      "choices": [
+        "5",
+        "8",
+        "6",
+        "7"
+      ],
+      "answer": "6"
+    },
+    {
+      "type": "mc",
+      "question": "There are 40 students in a class, and the teacher wants to form teams of 4. How many teams will there be?",
+      "choices": [
+        "10",
+        "8",
+        "11",
+        "6"
+      ],
+      "answer": "10"
+    },
+    {
+      "type": "mc",
+      "question": "You have 72 candies and want to distribute them equally among 8 friends. How many candies will each friend get?",
+      "choices": [
+        "11",
+        "9",
+        "8",
+        "10"
+      ],
+      "answer": "9"
+    },
+    {
+      "type": "mc",
+      "question": "A library has 64 books and wants to arrange them on 8 shelves. How many books will be on each shelf?",
+      "choices": [
+        "6",
+        "7",
+        "8",
+        "9"
+      ],
+      "answer": "8"
+    },
+    {
+      "type": "mc",
+      "question": "There are 27 cupcakes, and you want to put them into boxes with 3 cupcakes in each box. How many boxes will you need?",
+      "choices": [
+        "5",
+        "8",
+        "7",
+        "9"
+      ],
+      "answer": "9"
+    },
+    {
+      "type": "mc",
+      "question": "A gardener has 81 flowers and wants to plant them in 9 equal rows. How many flowers will be in each row?",
+      "choices": [
+        "9",
+        "5",
+        "8",
+        "7"
+      ],
+      "answer": "9"
+    },
+    {
+      "type": "sa",
+      "question": "Jackie has 45 pencils and want to divide them equally into 5 boxes. How many pencils will be in each box?",
+      "answer": "9"
+    },
+    {
+      "type": "sa",
+      "question": "There are 56 bottles, and you want to distribute them equally among 7 trashcans. How many bottles will be in each trashcan?",
+      "answer": "8"
+    },
+    {
+      "type": "sa",
+      "question": "A baker bakes 60 cookies and wants to equally give them to 12 kids. How many cookies will each kid get?",
+      "answer": "5"
     }
   ]
-]
+}
