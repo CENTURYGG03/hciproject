@@ -1,5 +1,5 @@
 window.onload = async () => {
-  const response = await fetch("../apis/videos.json")
+  const response = await fetch("https://kengomatsuo.github.io/hciproject/apis/videos.json")
   const videos = await response.json()
   if (!localStorage.getItem('current'))
     localStorage.setItem('current', 0)
