@@ -15,7 +15,7 @@ function installCurrentVideo(videos, current) {
     <video controls autoplay muted>
         <source id="main-video" src="${videos[current].video}" type="video/mp4">
     </video>
-    <h2 class="title">Learning Addition and Subtraction - Basic Math for Kids - EASY level</h2>
+    <h2 class="title">${videos[current].title}</h2>
   </div>
 
   <div class="instructor">
@@ -52,11 +52,16 @@ function installCurrentVideo(videos, current) {
       <video muted poster="assets/img/thumbnail${index + 1}.png">
       </video>
       <div class="text">
-        <h2 class="title">Learning Addition and Subtraction - Basic Math for Kids - Advanced level</h2>
+        <h2 class="title">${videos[index].title}</h2>
         <h3>${videos[index].teacher}</h3>
         <h5>${videos[index].views} views</h5>
       </div>
     </div>
     `)
   }
+}
+
+function changeVideos(num) {
+  localStorage.setItem('current', num)
+  window.location.reload()
 }
