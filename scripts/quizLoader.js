@@ -3,10 +3,21 @@ window.onload = async () => {
   const quizzes = await response.json()
   const current = localStorage.getItem('current')
   showQuestions(quizzes, current)
+
+  document.getElementById('quiz-form').addEventListener("submit", e => {
+    e.preventDefault();
+    const data = new FormData(e.target);
+    for (const [name, value] of data) {
+      if (quizzes[current][name].answer == value)
+        console.log('correct')
+      else
+        console.log('wrong')
+      console.log(name, ":", value)
+    }
+  })
 }
 
 function showQuestions(quizzes, current) {
-  console.log(quizzes[current])
   document.getElementById('title').innerHTML = quizzes[current][0]
   const form = document.getElementById('quiz-form')
   for (let index = 1; index < quizzes[current].length; index++) {
@@ -39,9 +50,12 @@ function showQuestions(quizzes, current) {
       form.insertAdjacentHTML('beforeend', `
       <div class="web">
         <h2>${quizzes[current][index].question}</h2>
-        <input type="text" name="${index}">
+        <input type="text" name="${index}" id="${index}" placeholder="Input your answer">
       </div>
       `)
     }
   }
+  form.insertAdjacentHTML('beforeend', `
+    <input type="submit" class="submitButton" value="Submit">
+  `)
 }
