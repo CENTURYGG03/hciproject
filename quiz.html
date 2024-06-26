@@ -1,125 +1,23 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./styles/quiz.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Andika:ital,wght@0,400;0,700;1,400;1,700&display=swap"
-        rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Kalam:wght@300;400;700&display=swap" rel="stylesheet">
-    <script type="text/javascript" src="./scripts/quizLoader.js" defer></script>
-    <title>Quiz Page</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./styles/quiz.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Andika:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+    rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Kalam:wght@300;400;700&display=swap" rel="stylesheet">
+  <script type="text/javascript" src="./scripts/quizLoader.js" defer></script>
+  <title>Quiz Page</title>
 </head>
+
 <body>
-    <h1 id="title"></h1>
-
-    <div class="web">
-        <div class="quiz">
-            <h2 id="question">7 + 3</h2>
-            <div class="answerButtons">
-                <button class="btn" id="aw">11</button>
-                <button class="btn" id="aw">9</button>
-                <button class="btn" id="ac">10</button>
-                <button class="btn" id="aw">12</button>
-            </div>
-        </div>
-    </div>
-
-    <div class="web">
-        <div class="quiz">
-            <h2 id="question">5 + 4</h2>
-            <div class="answerButtons">
-                <button class="btn" id="bw">7</button>
-                <button class="btn" id="bc">9</button>
-                <button class="btn" id="bw">10</button>
-                <button class="btn" id="bw">11</button>
-            </div>
-        </div>
-    </div>
-
-    <div class="web">
-        <div class="quiz">
-            <h2 id="question">4 + 3</h2>
-            <div class="answerButtons">
-                <button class="btn" id="cc">7</button>
-                <button class="btn" id="cw">10</button>
-                <button class="btn" id="cw">9</button>
-                <button class="btn" id="cw">8</button>
-            </div>
-        </div>
-    </div>
-
-    <div class="web">
-        <div class="quiz">
-            <h2 id="question">11 - 5</h2>
-            <div class="answerButtons">
-                <button class="btn" id="dw">16</button>
-                <button class="btn" id="dw">15</button>
-                <button class="btn" id="dc">6</button>
-                <button class="btn" id="dw">4</button>
-            </div>
-        </div>
-    </div>
-
-    <div class="web">
-        <div class="quiz">
-            <h2 id="question">17 + 5</h2>
-            <div class="answerButtons">
-                <button class="btn" id="ew">20</button>
-                <button class="btn" id="ew">19</button>
-                <button class="btn" id="ew">21</button>
-                <button class="btn" id="ec">22</button>
-            </div>
-        </div>
-    </div>
-
-    <div class="web">
-        <div class="quiz">
-            <h2 id="question">15 - 9</h2>
-            <div class="answerButtons">
-                <button class="btn" id="fc">6</button>
-                <button class="btn" id="fw">24</button>
-                <button class="btn" id="fw">10</button>
-                <button class="btn" id="fw">9</button>
-            </div>
-        </div>
-    </div>
-
-    <div class="web">
-        <div class="quiz">
-            <h2 id="question">16 + 17</h2>
-            <div class="answerButtons">
-                <button class="btn" id="gw">22</button>
-                <button class="btn" id="gw">29</button>
-                <button class="btn" id="gc">33</button>
-                <button class="btn" id="gw">32</button>
-            </div>
-        </div>
-    </div>
-
-    <div class="webShortAnswered">
-        <div class="quizShortAnswered">
-            <h1 id="question">14 - 7 = </h2>
-            <input type="text" id="shortAnswered1">
-        </div>
-    </div>
-
-    <div class="webShortAnswered">
-        <div class="quizShortAnswered">
-            <h1 id="question">15 - 15 = </h2>
-            <input type="text" id="shortAnswered2">
-        </div>
-    </div>
-
-    <div class="webShortAnswered">
-        <div class="quizShortAnswered">
-            <h1 id="question">21 + 17 = </h2>
-            <input type="text" id="shortAnswered3">
-        </div>
-    </div>
-
-    <button class="submitButton">Submit</button>
+  <h1 id="title"></h1>
+  <form id="quiz-form">
+  </form>
+  <button class="submitButton">Submit</button>
 </body>
 </html>
