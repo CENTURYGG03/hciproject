@@ -41,6 +41,9 @@ function installCurrentVideo(videos, current) {
     `)
   });
   const related = document.getElementById('related-videos')
+  related.innerHTML = `
+    <h3 class="related-vid">Other Related Videos</h3>
+  `
   for (let index = 0; index < videos.length; index++) {
     if (index == current)
       continue
