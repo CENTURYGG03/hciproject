@@ -17,7 +17,7 @@ function installCurrentVideo(videos, current) {
   </div>
 
   <div class="instructor">
-    <img src="assets/img/profilepic-1.jpg" alt="profile picture">
+    <img src="assets/img/profilepic-${+current+1}.jpg" alt="profile picture">
     <div class="profile">
         <h3>${videos[current].teacher}</h3>
         <h5>${videos[current].degree}</h5>
