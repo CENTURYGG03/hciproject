@@ -61,7 +61,8 @@ function installCurrentVideo(videos, current) {
   }
 }
 
-function changeVideos(num) {
-  localStorage.setItem('current', num)
+function changeVideos(index) {
+  localStorage.setItem('current', index)
   window.location.reload()
+  return false
 }

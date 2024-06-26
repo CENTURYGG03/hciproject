@@ -22,7 +22,7 @@
       ""
     ],
     "views": 57320,
-    "video": "../assets/video/Learning Addition and Subtraction - Basic Math for Kids - Advanced level.mp4"
+    "video": "./assets/video/Learning Addition and Subtraction - Basic Math for Kids - Advanced level.mp4"
   },
   {
     "title": "Adding Problems For Kids - Learning Maths",
@@ -34,7 +34,7 @@
       ""
     ],
     "views": 71289,
-    "video": "../assets/video/Adding problems for kids - Learning maths.mp4"
+    "video": "./assets/video/Adding problems for kids - Learning maths.mp4"
   },
   {
     "title": "Subtractions For Kids - Learn To Subtract With Dinosaurs - Mathematics For Kids",
@@ -46,7 +46,7 @@
       ""
     ],
     "views": 88109,
-    "video": "../assets/video/Subtractions for kids - Learn to subtract with Dinosaurs - Mathematics for kids.mp4"
+    "video": "./assets/video/Subtractions for kids - Learn to subtract with Dinosaurs - Mathematics for kids.mp4"
   },
   {
     "title": "Multiplication - Learn To Multiply With The Wizard's Apprentice",
@@ -58,7 +58,7 @@
       ""
     ],
     "views": 23561,
-    "video": "../assets/video/Multiplication - Learn To Multiply with The Wizard's Apprentice.mp4"
+    "video": "./assets/video/Multiplication - Learn To Multiply with The Wizard's Apprentice.mp4"
   },
   {
     "title": "Multiplication For Kids - How Many Coins Will The Monsters Have For The Party",
@@ -70,7 +70,7 @@
       ""
     ],
     "views": 19778,
-    "video": "../assets/video/Multiplication For Kids - How Many Coins Will The Monsters Have For The Party.mp4"
+    "video": "./assets/video/Multiplication For Kids - How Many Coins Will The Monsters Have For The Party.mp4"
   },
   {
     "title": "Divisions - Learn To Divide With Our Monkey Friends",
@@ -82,7 +82,7 @@
       ""
     ],
     "views": 130667,
-    "video": "../assets/video/Divisions - Learn To Divide With Our Monkey Friends.mp4"
+    "video": "./assets/video/Divisions - Learn To Divide With Our Monkey Friends.mp4"
   },
   {
     "title": "Division With Monster University - Learn Division",
@@ -94,6 +94,6 @@
       ""
     ],
     "views": 257888,
-    "video": "../assets/video/Division With Monster University - Learn Division.mp4"
+    "video": "./assets/video/Division With Monster University - Learn Division.mp4"
   }
 ]
