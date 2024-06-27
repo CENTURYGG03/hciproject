@@ -15,6 +15,7 @@ body {
     gap: 15px;
     align-items: flex-start;
     padding: 50px 5%;
+    margin-top: 50px;
 }
 
 .container .main-video {
@@ -151,14 +152,12 @@ body {
 @media (max-width: 1200px) {
     .container {
         grid-template-columns: 1.5fr 1fr;
-        padding: 10px;
     }
 }
 
 @media (max-width: 991px) {
     .container {
         grid-template-columns: 1fr;
-        padding: 10px;
     }
 
     .container .video-list .vid .title {
