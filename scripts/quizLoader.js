@@ -5,15 +5,67 @@ window.onload = async () => {
   showQuestions(quizzes, current)
 
   document.getElementById('quiz-form').addEventListener("submit", e => {
-    e.preventDefault();
-    const data = new FormData(e.target);
-    for (const [name, value] of data) {
-      if (quizzes[current][name].answer == value)
-        console.log('correct')
-      else
-        console.log('wrong')
-      console.log(name, ":", value)
+    let valid = true
+    for (let index = 1; index < quizzes[current].length; index++) {
+      const inputs = document.getElementsByName(index)
+      if (quizzes[current][index].type == "mc") {
+        let totalchoice = inputs.length
+        for (var i = 0; i < inputs.length; i++) {
+          if (!inputs[i].checked) {
+            totalchoice--
+            console.log(totalchoice)
+          }
+        }
+        if (totalchoice == 0)
+          valid = false
+      }
+      else {
+        if (inputs[0].value.length < 1) {
+          valid = false
+          console.log('not inputted')
+        }
+      }
     }
+
+    if (!valid) {
+      alert('Please input all answers before submitting')
+      e.preventDefault();
+      return
+    }
+
+    const data = new FormData(e.target);
+
+    let array = []
+    let correct = 0
+    let wrong = 0
+    for (const [name, value] of data) {
+
+      array.push({
+        question: quizzes[current][name].question,
+        answer: value,
+        key: quizzes[current][name].answer,
+        status: (value == quizzes[current][name].answer) ? 'Correct' : 'Wrong'
+      })
+
+      if (quizzes[current][name].answer == value)
+        correct++
+      else
+        wrong++
+    }
+
+    const save = {
+      date: new Date(),
+      name: quizzes[current][0],
+      questions: array,
+      score: correct * 100 / (correct + wrong),
+    }
+
+    let stored = JSON.parse(localStorage.getItem('attempts'))
+    if (!stored)
+      stored = []
+    stored.push(save)
+    localStorage.setItem('attempts', JSON.stringify(stored))
+    localStorage.setItem('currentReview', stored.length-1)
   })
 }
 
@@ -50,7 +102,7 @@ function showQuestions(quizzes, current) {
       form.insertAdjacentHTML('beforeend', `
       <div class="web">
         <h2>${quizzes[current][index].question}</h2>
-        <input type="text" name="${index}" id="${index}" placeholder="Input your answer">
+        <input type="number" name="${index}" id="${index}" placeholder="Input your answer">
       </div>
       `)
     }
