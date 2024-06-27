@@ -13,7 +13,6 @@ window.onload = async () => {
         for (var i = 0; i < inputs.length; i++) {
           if (!inputs[i].checked) {
             totalchoice--
-            console.log(totalchoice)
           }
         }
         if (totalchoice == 0)
@@ -22,7 +21,6 @@ window.onload = async () => {
       else {
         if (inputs[0].value.length < 1) {
           valid = false
-          console.log('not inputted')
         }
       }
     }
@@ -56,6 +54,7 @@ window.onload = async () => {
     const save = {
       date: new Date(),
       name: quizzes[current][0],
+      quizindex: current,
       questions: array,
       score: correct * 100 / (correct + wrong),
     }

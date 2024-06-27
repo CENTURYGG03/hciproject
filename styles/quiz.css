@@ -69,10 +69,13 @@ label {
   padding: 10px;
   margin: 10px 0;
   text-align: left;
+}
+
+label:not(.review) {
   cursor: pointer;
 }
 
-label:hover {
+label:not(.review):hover {
   background: #222;
   color: #fff;
 }
@@ -82,7 +85,7 @@ input[type="radio"] {
 }
 
 input[type="radio"]:checked ~ label {
-  background-color: rgb(223, 157, 157);
+  background-color: #EBE0AF;
   color: #222;
   box-shadow: 2px 2px #222;
 }
@@ -113,9 +116,31 @@ input[type="number"]:focus {
   box-shadow: 2px 2px #222;
 }
 
+input[type="number"].review {
+  cursor: default;
+  pointer-events: none;
+}
+
 input[type="submit"] {
   cursor: pointer;
   margin-left: auto;
   margin-right: auto;
   display: block;
 }
+
+.key {
+  background-color: #A0DDCB;
+}
+
+.chosenwrong {
+  background-color: rgb(223, 157, 157);
+}
+
+.correct {
+  color: #42ab8d;
+}
+
+.wrong {
+  color: #e15e57;
+}
+
