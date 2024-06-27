@@ -45,4 +45,7 @@ function showResults(quiz, attempt) {
       `)
     }
   }
+  answer.insertAdjacentHTML('beforeend', `
+    <a href="./video.html">Return to Video</a>
+  `)
 }
