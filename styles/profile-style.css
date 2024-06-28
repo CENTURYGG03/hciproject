@@ -34,10 +34,6 @@
   --paragraph-size: 18px;
 }
 
-div {
-  overflow: hidden;
-}
-
 body {
   margin: 0;
   padding: 0;
@@ -174,6 +170,7 @@ p {
   max-height: 70px;
   text-decoration: none;
   color: var(--text-color);
+  overflow: hidden;
 }
 
 .history:hover {
