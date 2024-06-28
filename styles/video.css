@@ -1,0 +1,193 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-transform: capitalize;
+}
+
+body {
+    background: #F7FBFC;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 15px;
+    align-items: flex-start;
+    padding: 50px 5%;
+    margin-top: 50px;
+}
+
+.container .main-video {
+    padding: 10px;
+}
+
+.container .main-video video {
+    width: 100%;
+    box-shadow: 4px 4px black;
+    border: 4px solid black;
+}
+
+.container .main-video .title {
+    color: black;
+    font-size: 25px;
+    font-family: "Kalam", cursive;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.container .instructor {
+    display: flex;
+    align-items: center;
+}
+
+.container .instructor img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+.container .instructor .profile {
+    margin-left: 15px;
+}
+
+.container .instructor .profile h3 {
+    color: #D78883;
+    font-family: "Andika", sans-serif;
+    font-size: 15px;
+}
+
+.container .instructor .profile h5 {
+    color: #737373;
+    font-family: "Andika", sans-serif;
+    font-size: 12px;
+}
+
+.container .instructor a {
+   margin-left: auto;
+   margin-right: 0;
+   text-decoration: none;
+   font-family: "Andika", sans-serif;
+   text-align: center;
+}
+
+.action-btn {
+    width: 200px;
+    background-color: #C0E4EA;
+    color: black;
+    padding: 0.5rem 1rem;
+    outline: none;
+    font-size: 1.2rem;
+    font-weight: bold;
+    cursor: pointer;
+    box-shadow: 4px 4px #74C3AC;
+    border: 4px solid black;
+}
+
+.container .desc-container {
+    margin-top: 30px;
+    background-color: #E6F7FA;
+    min-height: 265px;
+}
+
+.container .desc-container .desc {
+    padding: 30px;
+    font-size: 18px;
+    font-family: "Andika", sans-serif;
+    color: #737373;
+}
+
+.container .desc-container .desc h4 {
+    margin-bottom: 10px;
+}
+
+.container .video-list .related-vid {
+    color: black;
+    font-size: 30px;
+    font-family: "Andika", sans-serif;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin-left: 7px;
+}
+
+.container .video-list .vid video {
+    width: 150px;
+    box-shadow: 4px 4px black;
+    border: 4px solid black;
+}
+
+.container .video-list .vid {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    gap: 15px;
+    margin: 10px;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.container .video-list .vid:hover {
+    background: #EBD161;
+}
+
+.container .video-list .vid .title {
+    font-size: 13px;
+    font-family: "Andika", sans-serif;
+}
+
+.container .video-list .vid h3 {
+    margin-top: 2px;
+    font-size: 11px;
+    font-family: "Andika", sans-serif;
+    color: #D78883;
+}
+
+.container .video-list .vid h5 {
+    margin-top: 2px;
+    font-size: 11px;
+    font-family: "Andika", sans-serif;
+    color: #737373;
+}
+
+@media (max-width: 1200px) {
+    .container {
+        grid-template-columns: 1.5fr 1fr;
+    }
+}
+
+@media (max-width: 991px) {
+    .container {
+        grid-template-columns: 1fr;
+    }
+
+    .container .video-list .vid .title {
+        font-size: 18px;
+    }
+
+    .container .video-list .vid h3 {
+        font-size: 15px;
+    }
+    
+    .container .video-list .vid h5 {
+        font-size: 13px;
+    }
+}
+
+@media (max-width: 550px) {
+    .container .video-list .vid .title {
+        font-size: 13px;
+    }
+
+    .container .video-list .vid h3 {
+        font-size: 11px;
+    }
+    
+    .container .video-list .vid h5 {
+        font-size: 10px;
+    }
+
+    .action-btn {
+        width: 120px;
+        font-size: 1rem;
+    }
+}

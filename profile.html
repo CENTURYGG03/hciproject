@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./styles/profile-style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Andika:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+    rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Kalam:wght@300;400;700&display=swap" rel="stylesheet">
+  <script src="./scripts/customElements.js" defer></script>
+  <script type="text/javascript" src="./scripts/profileLoader.js"></script>
+  <title>HCI Project - Education</title>
+</head>
+
+<body background="./assets/img/profile 4.jpg">
+  <navigation-bar></navigation-bar>
+  <section id="profile">
+    <div class="shaded-box left">
+      <div class="profile">
+        <img src="./assets/img/profile 1.png" alt="">
+        <h1 class="andika-regular" id="username"></h1>
+      </div>
+
+      <hr>
+      <p class="kalam-light">Date of birth</p>
+      <p class="kalam-regular" id="dob"></p>
+      <hr>
+      <p class="kalam-light">Email</p>
+      <p class="kalam-regular" id="email"></p>
+      <hr>
+      <p class="kalam-light">Gender</p>
+      <p class="kalam-regular" id="gender"></p>
+      <hr>
+      <p class="kalam-light">Password</p>
+      <p class="kalam-regular">*********</p>
+
+    </div>
+
+    <div class="right">
+      <div class="up">
+        <div class="shaded-box AvgScore">
+          <div>
+            <p class="kalam-light">Average Score</p>
+            <p class="kalam-bold" id="avg"></p>
+          </div>
+          <img src="./assets/img/profile 2.png" alt="">
+        </div>
+        <div class="shaded-box Streaks">
+          <div>
+            <p class="kalam-light">Streaks</p>
+            <p class="kalam-bold">7 days</p>
+          </div>
+          <img src="./assets/img/profile 3.png" alt="">
+        </div>
+      </div>
+      <div class="shaded-box down" id="history">
+        <div class="history-data">
+        </div>
+      </div>
+    </div>
+  </section>
+</body>
+
+</html>
