@@ -1,15 +1,22 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Register</title>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="./styles/register.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Andika:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Andika:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+        rel="stylesheet">
+    <script src="./scripts/customElements.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/jssha@3.3.1/dist/jssha.min.js"></script>
+    <script src="./scripts/validateRegister.js" defer></script>
 </head>
+
 <body>
+    <navigation-bar></navigation-bar>
     <div class="center">
         <div class="container">
             <div class="image-container">
@@ -27,16 +34,24 @@
                         </div>
                     </div>
                     <div class="input-group">
-                        <input type="email" name="email" placeholder="Email">
+                        <input type="email" name="email" id="email" placeholder="Email">
                     </div>
                     <div class="input-group">
-                        <input type="date" name="dob" placeholder="Date of Birth">
+                        <input type="date" name="dob" id="dob" placeholder="Date of Birth">
+                    </div>
+                    <div class="input-group input-gender">
+                        <label for="male">
+                            <input type="radio" name="gender" id="male" value="male">Male
+                        </label>
+                        <label for="female">
+                            <input type="radio" name="gender" id="female" value="female">Female
+                        </label>
                     </div>
                     <div class="input-group">
-                        <input type="text" name="gender" placeholder="Gender">
+                        <input type="password" name="password" id="password" placeholder="Password">
                     </div>
                     <div class="input-group">
-                        <input type="password" name="password" placeholder="Password">
+                        <input type="password" name="confpassword" id="confpassword" placeholder="Confirm Password">
                     </div>
                     <button type="submit">Sign up</button>
                 </form>
@@ -44,4 +59,5 @@
         </div>
     </div>
 </body>
+
 </html>

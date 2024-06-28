@@ -4,7 +4,7 @@ window.onload = async () => {
   const current = localStorage.getItem('current')
   showQuestions(quizzes, current)
 
-  document.getElementById('quiz-form').addEventListener("submit", e => {
+  document.getElementById('quiz-form').addEventListener('submit', e => {
     let valid = true
     for (let index = 1; index < quizzes[current].length; index++) {
       const inputs = document.getElementsByName(index)

@@ -44,7 +44,7 @@
   --shadow-color: black;
   --background-color: #f7fbfc;
   --text-color: black;
-  --nav-size: 24px;
+  --nav-size: 18px;
   --color2: #c0e4ea;
   --header-size: 36px;
   --outline-color: black;
@@ -71,7 +71,7 @@ nav {
 
 nav a {
   transition-duration: 0.2s;
-  padding: 16px;
+  padding: 10px;
   text-decoration: none;
   color: var(--text-color);
   font-size: var(--nav-size);
