@@ -5,6 +5,7 @@ window.onload = async () => {
   showQuestions(quizzes, current)
 
   document.getElementById('quiz-form').addEventListener('submit', e => {
+    e.preventDefault()
     let valid = true
     for (let index = 1; index < quizzes[current].length; index++) {
       const inputs = document.getElementsByName(index)
@@ -27,7 +28,6 @@ window.onload = async () => {
 
     if (!valid) {
       alert('Please input all answers before submitting')
-      e.preventDefault();
       return
     }
 
@@ -65,7 +65,6 @@ window.onload = async () => {
     stored.push(save)
     localStorage.setItem('attempts', JSON.stringify(stored))
     localStorage.setItem('currentReview', stored.length - 1)
-    
     window.location.href = './results.html'
   })
 }
