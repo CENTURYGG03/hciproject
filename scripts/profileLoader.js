@@ -17,7 +17,7 @@ window.onload = () => {
       total += element.score
     })
     const avg = total / attempts.length
-    document.getElementById('avg').innerHTML = avg
+    document.getElementById('avg').innerHTML = avg.toFixed(2)
     
     attempts.forEach((element, index) => {
       history.insertAdjacentHTML('afterbegin', `

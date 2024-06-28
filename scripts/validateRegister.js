@@ -1,5 +1,4 @@
 document.getElementById('register-form').addEventListener('submit', e => {
-  e.preventDefault()
   const firstName = document.getElementById('first-name').value
   if (firstName.length == 0) {
     alert('First name must be filled')
