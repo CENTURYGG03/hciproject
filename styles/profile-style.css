@@ -54,6 +54,35 @@ section {
   box-sizing: border-box;
 }
 
+nav {
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  margin: 20px;
+  display: flex;
+  padding: 0 24px;
+  background-color: var(--color2);
+}
+
+nav a {
+  transition-duration: 0.2s;
+  padding: 10px;
+  text-decoration: none;
+  color: var(--text-color);
+  font-size: var(--nav-size);
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  
+}
+
+nav a:hover {
+  transform: scale(110%);
+  text-decoration: underline;
+  transition-duration: 0.2s;
+}
+
 .shaded-box {
   box-shadow: 4px 4px var(--shadow-color);
   border: 4px solid var(--outline-color);
@@ -179,5 +208,6 @@ p:not(.correct) {
 
 #profile {
   margin-top: 30px;
+  gap: 20px;
   height: auto;
 }
