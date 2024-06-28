@@ -7,7 +7,7 @@ class navBar extends HTMLElement {
     <nav class="shaded-box andika-regular">
       <a href="./index.html">Learn!</a>
       <a href="./video.html">Materials</a>
-      <a href="${(localStorage.getItem('auth') == 'true') ? (currentPath=='profile.html') ? './index.html' : './profile.html' : './register.html'}" ${(currentPath=='profile.html') ? 'onclick="signOut()" ':''}id="start-button">${(localStorage.getItem('auth') == true) ? (currentPath=='profile.html') ? 'Log Out' : localStorage.getItem('username') : 'Join us'}</a>
+      <a href="${(localStorage.getItem('auth') == 'true') ? (currentPath=='profile.html') ? './index.html' : './profile.html' : './register.html'}" ${(currentPath=='profile.html') ? 'onclick="signOut()" ':''}id="start-button">${(localStorage.getItem('auth') == 'true') ? (currentPath=='profile.html') ? 'Log Out' : localStorage.getItem('username') : 'Join us'}</a>
     </nav>
     `
   }
