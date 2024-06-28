@@ -50,9 +50,9 @@ window.onload = async () => {
       else
         wrong++
     }
-
+    const date = new Date()
     const save = {
-      date: new Date(),
+      date: date.toLocaleString(),
       name: quizzes[current][0],
       quizindex: current,
       questions: array,
