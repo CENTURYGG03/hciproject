@@ -6,7 +6,9 @@
 }
 
 body {
-    background: #F7FBFC;
+    background-image: url('../assets/imG/BG_VIDEO.jpg');
+    background-size: cover;
+    background-position: center;
 }
 
 .container {

@@ -37,8 +37,10 @@
 body {
   margin: 0;
   padding: 0;
-  background-color: var(--background-color);
   overflow-x: hidden;
+  background-image: url('../assets/imG/BG_PROFILE.jpg');
+  background-size: cover;
+  background-position: center;
 }
 
 section {
