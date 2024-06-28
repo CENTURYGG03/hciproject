@@ -1,5 +1,5 @@
 window.onload = async () => {
-  const response = await fetch("../apis/quiz.json")
+  const response = await fetch("https://kengomatsuo.github.io/hciproject/apis/quiz.json")
   const quizzes = await response.json()
   const current = localStorage.getItem('current')
   showQuestions(quizzes, current)
