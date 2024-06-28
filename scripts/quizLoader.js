@@ -64,7 +64,9 @@ window.onload = async () => {
       stored = []
     stored.push(save)
     localStorage.setItem('attempts', JSON.stringify(stored))
-    localStorage.setItem('currentReview', stored.length-1)
+    localStorage.setItem('currentReview', stored.length - 1)
+    
+    window.location.href = './results.html'
   })
 }
 

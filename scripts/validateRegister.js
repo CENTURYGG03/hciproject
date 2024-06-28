@@ -1,3 +1,11 @@
+window.onload = () => {
+  if (localStorage.getItem('auth') == 'true') {
+    alert('You are already signed in! Redirecting to your profile page..')
+    window.location.href = './profile.html'
+    return
+  }
+}
+
 document.getElementById('register-form').addEventListener('submit', e => {
   const firstName = document.getElementById('first-name').value
   if (firstName.length == 0) {
@@ -20,6 +28,7 @@ document.getElementById('register-form').addEventListener('submit', e => {
   }
   const dateofbirth = document.getElementById('dob').value
   if (dateofbirth.length == 0) {
+    alert('Date of birth must be filled')
     e.preventDefault()
     return
   }
@@ -45,5 +54,7 @@ document.getElementById('register-form').addEventListener('submit', e => {
   localStorage.setItem('email', email)
   localStorage.setItem('dob', dateofbirth)
   localStorage.setItem('gender', gender)
-  localStorage.setItem('auth',true)
+  localStorage.setItem('auth', true)
+  
+  window.location.href = './profile.html'
 })
