@@ -1,7 +1,10 @@
 window.onload = () => {
   date = new Date()
-  if (localStorage.getItem('auth') != 'true')
+  if (localStorage.getItem('auth') != 'true') {
+    alert('You must be registered to be able to see your profile and history.')
     window.location.href = './register.html'
+    return
+  }
   document.getElementById('username').innerHTML = localStorage.getItem('username')
   document.getElementById('dob').innerHTML = localStorage.getItem('dob')
   document.getElementById('email').innerHTML = localStorage.getItem('email')
