@@ -108,6 +108,8 @@ function showQuestions(quizzes, current) {
     }
   }
   form.insertAdjacentHTML('beforeend', `
-    <input type="submit" class="submitButton" value="Submit">
+    <div id="submit">
+      <input type="submit" class="shaded-box button" value="Submit">
+    </div>
   `)
 }

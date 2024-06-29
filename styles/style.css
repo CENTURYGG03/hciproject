@@ -40,6 +40,23 @@
   font-style: normal;
 }
 
+@media screen and (max-width: 1200px) {
+  .homesection {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+@media screen and (min-width: 1201px) {
+  .sectionright {
+    flex-direction: row-reverse;
+  }
+}
+
+#first {
+  margin-top: 70px;
+}
+
 :root {
   --shadow-color: black;
   --background-color: #f7fbfc;
@@ -132,6 +149,10 @@ p {
   width: fit-content;
 }
 
+.button:hover {
+  background-color: rgba(0, 0, 0, 0.05);
+}
+
 .button:active {
   box-shadow: none;
   margin: 4px 0 0 4px;
@@ -156,6 +177,86 @@ p {
 
   text-align: right;
 }
+
+li {
+  list-style: none;
+}
+
+footer {
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  min-height: 60vh;
+  background: var(--background-color);
+}
+
+.footer {
+  position: relative;
+  width: 100%;
+  background: var(--color2);
+  min-height: 100px;
+  padding: 20px 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.footer .social-icon, .footer .menu {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px 0;
+  flex-wrap: wrap;
+}
+
+.footer img {
+  width: 30px;
+  height: 30px;
+}
+
+.footer .social-icon {
+  margin-right: 50px;
+}
+
+.footer .social-icon li a {
+  font-size: 2em;
+  color: var(--text-color);
+  margin: 0 10px;
+  display: inline-block;
+  transition: 0.5s;
+}
+
+.footer .social-icon li a:hover {
+  transform: translateY(-10px);
+}
+
+.footer .menu {
+  margin-right: 50px;
+}
+
+.footer .menu li a {
+  font-size: 1.2em;
+  color: var(--text-color);
+  margin: 0 10px;
+  display: inline-block;
+  transition: 0.5s;
+  text-decoration: none;
+}
+
+.footer .menu li a:hover {
+  transform: scale(110%);
+  text-decoration: underline;
+  transition-duration: 0.2s;
+}
+
+.footer p {
+  color: var(--text-color);
+  text-align: center;
+  margin-top: 15px;
+  margin-bottom: 10px;
+  font-size: 1.1em;
 
 #Start_Journey {
   background-color: #c0e4ea;

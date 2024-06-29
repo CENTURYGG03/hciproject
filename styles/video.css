@@ -151,6 +151,10 @@ body {
     color: #737373;
 }
 
+#quiz-btn {
+    background-color: #C0E4EA;
+}
+
 @media (max-width: 1200px) {
     .container {
         grid-template-columns: 1.5fr 1fr;

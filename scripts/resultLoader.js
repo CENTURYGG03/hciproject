@@ -46,6 +46,8 @@ function showResults(quiz, attempt) {
     }
   }
   answer.insertAdjacentHTML('beforeend', `
-    <a href="./video.html">Return to Video</a>
+  <div id="submit">
+    <a href="./video.html" class="shaded-box button">Return to Video</a>
+  </div>
   `)
 }
