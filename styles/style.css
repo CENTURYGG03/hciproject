@@ -56,6 +56,11 @@ body {
   margin: 0;
   padding: 0;
   background-color: var(--background-color);
+  background-repeat: no-repeat;
+
+  background-image: url('../assets/img/BG_HOME.jpg');
+  background-size: cover;
+  background-position: center;
 }
 
 nav {
@@ -150,4 +155,8 @@ p {
   margin-left: auto;
 
   text-align: right;
+}
+
+#Start_Journey {
+  background-color: #c0e4ea;
 }
