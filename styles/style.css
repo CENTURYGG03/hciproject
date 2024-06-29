@@ -186,7 +186,6 @@ footer {
   display: flex;
   justify-content: flex-end;
   align-items: flex-end;
-  min-height: 60vh;
   background: var(--background-color);
 }
 
