@@ -34,15 +34,13 @@
   --paragraph-size: 18px;
 }
 
-div {
-  overflow: hidden;
-}
-
 body {
   margin: 0;
   padding: 0;
-  background-color: var(--background-color);
   overflow-x: hidden;
+  background-image: url('../assets/imG/BG_PROFILE.jpg');
+  background-size: cover;
+  background-position: center;
 }
 
 section {
@@ -174,6 +172,7 @@ p {
   max-height: 70px;
   text-decoration: none;
   color: var(--text-color);
+  overflow: hidden;
 }
 
 .history:hover {
