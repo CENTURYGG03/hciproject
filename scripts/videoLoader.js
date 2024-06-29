@@ -22,7 +22,7 @@ function installCurrentVideo(videos, current) {
         <h3>${videos[current].teacher}</h3>
         <h5>${videos[current].degree}</h5>
     </div>
-    <a href="./quiz.html" class="action-btn" id="see-detail-btn">Take Quiz</a>
+    <a href="./quiz.html" class="shaded-box button" id="quiz-btn">Take Quiz</a>
   </div>
 
   <div class="desc-container">

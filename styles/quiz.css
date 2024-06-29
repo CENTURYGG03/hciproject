@@ -6,6 +6,60 @@
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
 }
 
+.andika-regular {
+  font-family: "Andika", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.andika-bold {
+  font-family: "Andika", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.andika-regular-italic {
+  font-family: "Andika", sans-serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.andika-bold-italic {
+  font-family: "Andika", sans-serif;
+  font-weight: 700;
+  font-style: italic;
+}
+
+.kalam-light {
+  font-family: "Kalam", cursive;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.kalam-regular {
+  font-family: "Kalam", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.kalam-bold {
+  font-family: "Kalam", cursive;
+  font-weight: 700;
+  font-style: normal;
+}
+
+:root {
+  --shadow-color: black;
+  --background-color: #f7fbfc;
+  --text-color: black;
+  --nav-size: 24px;
+  --color2: #c0e4ea;
+  --header-size: 36px;
+  --outline-color: black;
+  --button-size: 20px;
+  --paragraph-size: 18px;
+}
+
 body {
   background-color: rgb(131, 185, 233);
   display: flex;
@@ -41,18 +95,41 @@ body {
   padding-bottom: 30px;
 }
 
-.submitButton, a {
-  padding: 10px;
-  align-self: center;
-  justify-self: center;
-  background-color: rgb(223, 157, 157);
-  margin-bottom: 20px;
-  border: 4px solid;
-  box-shadow: 3px 3px;
+.shaded-box {
+  box-shadow: 4px 4px var(--shadow-color);
+  border: 4px solid var(--outline-color);
 }
 
-.submitButton:active, a:active {
-  box-shadow: 0px 0px;
+#submit {
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  margin-bottom: 20px;
+}
+
+.button {
+  cursor: pointer;
+  padding: 8px 32px;
+  text-decoration: none;
+  color: var(--text-color);
+  font-size: var(--button-size);
+  margin: 0 4px 4px 0;
+  width: fit-content;
+  background-color: rgb(223, 157, 157);
+}
+
+.button:hover {
+  background-color: rgb(209, 144, 144);
+}
+
+.button:active {
+  box-shadow: none;
+  margin: 4px 0 0 4px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
 }
 
 fieldset {
@@ -119,13 +196,6 @@ input[type="number"]:focus {
 input[type="number"].review {
   cursor: default;
   pointer-events: none;
-}
-
-input[type="submit"] {
-  cursor: pointer;
-  margin-left: auto;
-  margin-right: auto;
-  display: block;
 }
 
 #review-list {
